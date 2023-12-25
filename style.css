@@ -4,7 +4,8 @@ html {
   margin: 0;
   font-family: sans-serif;
   text-align: center;
-  background-color: ;
+  background-image: url('/smile.jpg');
+  background-size: cover;
 }
 
 .chat-header {

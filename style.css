@@ -6,7 +6,8 @@ html {
   text-align: center;
   background-image: url('/smile.jpg');
   background-size: cover;
-   background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-repeat: inherit;
 }
 
 .chat-header {
@@ -23,7 +24,9 @@ html {
   display: flex;
   flex-direction: column;
   width: 80%;
+  max-height: none; 
 }
+
 
 .message {
   display: flex;

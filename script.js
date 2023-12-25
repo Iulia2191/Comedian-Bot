@@ -59,7 +59,7 @@ function requestJoke() {
       appendBotMessage(jokes[jokeIndex][0]);
     } else {
       appendBotMessage(getNextResponse());
-      jokeButton.style.display = "none";
+
       return;
     }
   }, 1500);
@@ -69,7 +69,7 @@ function requestJoke() {
       jokeIndex++;
     } else {
       appendBotMessage(getNextResponse());
-      jokeButton.style.display = "none";
+     
     }
   }, 2000);
 }
@@ -78,10 +78,12 @@ function getNextResponse() {
   const response = responses[responseIndex];
   responseIndex = (responseIndex + 1) % responses.length;
   return response;
+
 }
 
 function scrollToBottom() {
   chatContent.scrollTop = chatContent.scrollHeight;
+  
 }
 
 requestJoke();

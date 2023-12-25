@@ -15,7 +15,7 @@ const responses = [
 ];
 
 const chatContent = document.querySelector(".chat-content");
-const jokeButton = document.getElementById("joke-button"); // Assuming you have a button with id "joke-button"
+const jokeButton = document.getElementById("joke-button"); // 
 
 let jokeIndex = 0;
 

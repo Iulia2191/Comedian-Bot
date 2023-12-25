@@ -11,7 +11,7 @@ const responses = [
   "Sorry, I'm out of jokes for now!",
   "I need some time to think of more jokes.",
   "Hmm, I'm feeling a bit shy today. No more jokes!",
-  "Let's switch topics. Any preferences?"
+ 
 ];
 
 const chatContent = document.querySelector(".chat-content");

@@ -3,4 +3,5 @@
 
 
 
-![bot](https://github.com/Iulia2191/Jokes-Bot/assets/125976840/7b3b17ab-4196-4a79-bd73-fc470a07a200)
+
+![bot](https://github.com/Iulia2191/Jokes-Bot/assets/125976840/bd12facc-faa4-4da7-8070-ff2ca1182575)

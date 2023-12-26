@@ -25,6 +25,7 @@ html {
   flex-direction: column;
   width: 80%;
   max-height: none; 
+  font-size: 1vw;
 }
 
 
@@ -89,3 +90,26 @@ html {
 #joke-button:hover {
   background-color: rgb(137, 210, 177);
 }
+
+
+@media screen and (max-width: 600px) {
+  .chat-content {
+    font-size: 20px;
+  }
+#joke-button{
+  font-size: 20px;
+}
+  .message .message-content,
+  .user-message .message-content {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .chat-content {
+    font-size: 20px;
+  }
+}
+
+

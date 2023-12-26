@@ -62,7 +62,7 @@ function requestJoke() {
 
       return;
     }
-  }, 1500);
+  }, 2000);
   setTimeout(function () {
     if (jokeIndex < jokes.length) {
       appendBotMessage(jokes[jokeIndex][1]);
@@ -71,7 +71,7 @@ function requestJoke() {
       appendBotMessage(getNextResponse());
      
     }
-  }, 2000);
+  }, 3500);
 }
 
 function getNextResponse() {
